@@ -9,4 +9,4 @@
   } else {
     global.qunar = qunar;
   }
-})(typeof window === 'undefined' ? this: window);
+})(this);
